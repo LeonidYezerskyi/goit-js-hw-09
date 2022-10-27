@@ -21,9 +21,6 @@ hoursEl.style.color = "red";
 minutesEl.style.color = "red";
 secondsEl.style.color = "red";
 
-
-
-
 btnStart.style.backgroundColor = "red";
 btnStart.style.color = "white";
 btnStart.style.borderColor = "black";
