@@ -7,15 +7,22 @@ const hoursEl = document.querySelector('[data-hours]');
 const minutesEl = document.querySelector('[data-minutes]');
 const secondsEl = document.querySelector('[data-seconds]');
 const btnStart = document.querySelector('[data-start]');
-const timerEl = document.querySelector('.timer')
+const timerEl = document.querySelector('.timer');
 
-timerEl.style.fontFamily = "Arial";
+timerEl.style.fontFamily = "Arial Black";
+timerEl.style.fontSize = "15px";
 timerEl.style.display = "flex";
 timerEl.style.gap = "5px";
-timerEl.style.justifyContent = "center";
 timerEl.style.marginTop = "20px";
-timerEl.style.color = "white";
-timerEl.style.backgroundColor = "green";
+timerEl.style.color = "green";
+
+daysEl.style.color = "red";
+hoursEl.style.color = "red";
+minutesEl.style.color = "red";
+secondsEl.style.color = "red";
+
+
+
 
 btnStart.style.backgroundColor = "red";
 btnStart.style.color = "white";
@@ -23,7 +30,7 @@ btnStart.style.borderColor = "black";
 
 input.style.borderColor = "red";
 input.style.backgroundColor = "black";
-input.style.color = "green";
+input.style.color = "white";
 
 btnStart.disabled = true;
 let timerId;
