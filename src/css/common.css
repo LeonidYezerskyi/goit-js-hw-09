@@ -30,12 +30,12 @@ font-family: Arial Black;
   color: red;
 }
 
-button {
+[data-start] {
 border-color: black;
 }
 
 
-input {
+#datetime-picker {
 border-color: red;
   background-color: black;
   color: white;

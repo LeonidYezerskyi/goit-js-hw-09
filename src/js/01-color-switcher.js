@@ -17,7 +17,8 @@ function changeColor() {
 
 function onClick(event) {
     changeColor();
-    timerId = setInterval(changeColor, 1000);
+  timerId = setInterval(changeColor, 1000);
+  btnStart.disabled = true;
 };
 
 btnStop.addEventListener('click', () => {
