@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+font-family: Arial Black;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  color: green;
+}
+
+.value {
+  color: red;
+}
+
+button {
+border-color: black;
+}
+
+
+input {
+border-color: red;
+  background-color: black;
+  color: white;
+}

@@ -9,26 +9,6 @@ const secondsEl = document.querySelector('[data-seconds]');
 const btnStart = document.querySelector('[data-start]');
 const timerEl = document.querySelector('.timer');
 
-timerEl.style.fontFamily = "Arial Black";
-timerEl.style.fontSize = "15px";
-timerEl.style.display = "flex";
-timerEl.style.gap = "5px";
-timerEl.style.marginTop = "20px";
-timerEl.style.color = "green";
-
-daysEl.style.color = "red";
-hoursEl.style.color = "red";
-minutesEl.style.color = "red";
-secondsEl.style.color = "red";
-
-btnStart.style.backgroundColor = "red";
-btnStart.style.color = "white";
-btnStart.style.borderColor = "black";
-
-input.style.borderColor = "red";
-input.style.backgroundColor = "black";
-input.style.color = "white";
-
 btnStart.disabled = true;
 let timerId;
 
