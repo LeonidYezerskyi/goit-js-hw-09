@@ -27,4 +27,6 @@ function onClick(event) {
 
 btnStop.addEventListener('click', () => {
   clearInterval(timerId);
+   btnStart.disabled = false;
+  btnStop.disabled = true;
 });
