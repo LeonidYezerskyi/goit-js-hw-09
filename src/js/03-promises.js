@@ -13,10 +13,10 @@ function onFormSubmit(e) {
     let mainDelayStep = Number(firstDelay.value) + Number(delayStep.value) * i;
       createPromise(i, mainDelayStep)
         .then(({ position, delay }) => {
-          return console.log(`✅ Fulfilled promise ${position} in ${delay}ms`);
+          return console.log(`✅ Fulfilled promise ${position + 1} in ${delay}ms`);
         })
         .catch(({ position, delay }) => {
-          return console.log(`❌ Rejected promise ${position} in ${delay}ms`);
+          return console.log(`❌ Rejected promise ${position + 1} in ${delay}ms`);
         });
   } 
 };
